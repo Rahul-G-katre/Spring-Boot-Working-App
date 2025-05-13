@@ -1,0 +1,19 @@
+package basics;
+
+import java.util.HashSet;
+public class UniqueElement {
+
+	public static void main(String[] args) {
+		int[] arr = {1, 2, 2, 3, 3, 4, 4, 5, 5}; 
+		HashSet<Integer> set = new HashSet<>();
+
+		for (int num : arr) {
+			if (!set.add(num)) {
+				set.remove(num); // Remove if it already exists (duplicate)
+			}
+		}
+
+		// The set will contain only the unique element
+		System.out.println("Unique element: " + set.iterator().next());
+	}
+}

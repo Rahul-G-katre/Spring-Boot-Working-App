@@ -1,0 +1,81 @@
+2025-05-13 11:17:08 [restartedMain] INFO  crud2.Crud2.Crud2Application - Starting Crud2Application using Java 24.0.1 with PID 19696 (C:\Users\hp17p\Downloads\Crud2 (1)\Crud2\target\classes started by hp17p in C:\Users\hp17p\Downloads\Crud2 (1)\Crud2)
+2025-05-13 11:17:08 [restartedMain] DEBUG crud2.Crud2.Crud2Application - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-13 11:17:08 [restartedMain] INFO  crud2.Crud2.Crud2Application - No active profile set, falling back to 1 default profile: "default"
+2025-05-13 11:17:08 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-13 11:17:08 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-13 11:17:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-13 11:17:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 3 JPA repository interfaces.
+2025-05-13 11:17:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-13 11:17:11 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-13 11:17:11 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-13 11:17:11 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-13 11:17:11 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2845 ms
+2025-05-13 11:17:11 [restartedMain] DEBUG c.C.security.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2025-05-13 11:17:12 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-13 11:17:12 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-13 11:17:12 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-13 11:17:12 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-13 11:17:12 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-13 11:17:13 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16de6132
+2025-05-13 11:17:13 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-13 11:17:13 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-13 11:17:13 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-13 11:17:14 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-13 11:17:14 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-13 11:17:15 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 15 endpoint(s) beneath base path '/actuator'
+2025-05-13 11:17:15 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3e03b03c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@692860b8, org.springframework.security.web.context.SecurityContextHolderFilter@58d50b67, org.springframework.security.web.header.HeaderWriterFilter@7b7c9bfe, org.springframework.web.filter.CorsFilter@5eb8c726, org.springframework.security.web.authentication.logout.LogoutFilter@1bba9212, crud2.Crud2.security.JwtAuthenticationFilter@62538535, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@28fb32fc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@380b2fa4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4504066, org.springframework.security.web.session.SessionManagementFilter@2a1b40a2, org.springframework.security.web.access.ExceptionTranslationFilter@420b713a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b9a9aec]
+2025-05-13 11:17:16 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-13 11:17:16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-05-13 11:17:16 [restartedMain] INFO  crud2.Crud2.Crud2Application - Started Crud2Application in 8.518 seconds (process running for 9.211)
+2025-05-13 11:17:38 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-13 11:17:38 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-13 11:17:38 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-05-13 11:17:38 [http-nio-8080-exec-1] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:17:38 [http-nio-8080-exec-1] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:17:39 [http-nio-8080-exec-2] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:17:39 [http-nio-8080-exec-2] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:17:41 [http-nio-8080-exec-3] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:17:41 [http-nio-8080-exec-3] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:17:41 [http-nio-8080-exec-4] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:17:41 [http-nio-8080-exec-4] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:17:42 [http-nio-8080-exec-5] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:17:42 [http-nio-8080-exec-5] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:17:42 [http-nio-8080-exec-6] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:17:42 [http-nio-8080-exec-6] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:17:43 [http-nio-8080-exec-7] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:17:43 [http-nio-8080-exec-7] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:17:44 [http-nio-8080-exec-8] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:17:44 [http-nio-8080-exec-8] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:17:44 [http-nio-8080-exec-9] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:17:44 [http-nio-8080-exec-9] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:17:45 [http-nio-8080-exec-10] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:17:45 [http-nio-8080-exec-10] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:17:46 [http-nio-8080-exec-1] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:17:46 [http-nio-8080-exec-1] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:17:46 [http-nio-8080-exec-2] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:17:46 [http-nio-8080-exec-2] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:17:47 [http-nio-8080-exec-3] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:17:47 [http-nio-8080-exec-3] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:17:47 [http-nio-8080-exec-4] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:17:47 [http-nio-8080-exec-4] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:17:48 [http-nio-8080-exec-5] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:17:48 [http-nio-8080-exec-5] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:17:48 [http-nio-8080-exec-6] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:17:48 [http-nio-8080-exec-6] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:17:48 [http-nio-8080-exec-7] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:17:48 [http-nio-8080-exec-7] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:17:49 [http-nio-8080-exec-8] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:17:49 [http-nio-8080-exec-8] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:17:54 [http-nio-8080-exec-9] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:17:54 [http-nio-8080-exec-9] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:17:55 [http-nio-8080-exec-10] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:17:55 [http-nio-8080-exec-10] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:19:34 [http-nio-8080-exec-5] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:19:34 [http-nio-8080-exec-5] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:20:27 [http-nio-8080-exec-10] INFO  o.s.web.filter.OncePerRequestFilter - Header :  Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJSYWh1bCIsImlhdCI6MTc0NzExNTM3NSwiZXhwIjoxNzQ3MTIyNTc1fQ.33QZAOqz5Jc-hf3-mmjnixLbty6_4vQ2rhD4LquggeN5llZZlPh2eEZwU6t-_TqoDbRoUvPFyZsjZ7Y6m23xGg
+2025-05-13 11:20:27 [http-nio-8080-exec-10] DEBUG c.C.controller.CategoryController - Fetching all categories
+2025-05-13 11:20:27 [http-nio-8080-exec-10] DEBUG crud2.Crud2.service.CategoryService - Fetching all categories (alternate method)
+2025-05-13 11:21:24 [http-nio-8080-exec-1] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:21:24 [http-nio-8080-exec-1] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-13 11:21:24 [http-nio-8080-exec-2] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-13 11:21:24 [http-nio-8080-exec-2] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
