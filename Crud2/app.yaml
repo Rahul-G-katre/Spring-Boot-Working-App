@@ -1,0 +1,10 @@
+runtime: java
+env: flex
+entrypoint: java -jar target/app.jar
+
+runtime_config:
+  jdk: openjdk17
+
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 2
