@@ -275,3 +275,15 @@ org.springframework.http.converter.HttpMessageNotWritableException: No converter
 2025-05-16 12:25:01 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
 2025-05-16 12:25:01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
 2025-05-16 12:25:01 [restartedMain] INFO  crud2.Crud2.Crud2Application - Started Crud2Application in 8.084 seconds (process running for 8.845)
+2025-05-16 12:27:40 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-16 12:27:40 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-16 12:27:40 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-05-16 12:27:41 [http-nio-8080-exec-1] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-16 12:27:41 [http-nio-8080-exec-1] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-16 12:27:42 [http-nio-8080-exec-3] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-16 12:27:42 [http-nio-8080-exec-3] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-16 12:41:08 [http-nio-8080-exec-6] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-16 12:41:08 [http-nio-8080-exec-6] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-16 12:41:09 [http-nio-8080-exec-7] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-16 12:41:09 [http-nio-8080-exec-7] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-16 13:51:31 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m32s551ms595µs200ns).
