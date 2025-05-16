@@ -287,3 +287,198 @@ org.springframework.http.converter.HttpMessageNotWritableException: No converter
 2025-05-16 12:41:09 [http-nio-8080-exec-7] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
 2025-05-16 12:41:09 [http-nio-8080-exec-7] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
 2025-05-16 13:51:31 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m32s551ms595µs200ns).
+2025-05-16 14:12:13 [http-nio-8080-exec-10] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-16 14:12:13 [http-nio-8080-exec-10] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-16 14:31:35 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m3s680ms421µs100ns).
+2025-05-16 14:46:39 [http-nio-8080-exec-3] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-16 14:46:39 [http-nio-8080-exec-3] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-16 14:46:39 [http-nio-8080-exec-4] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-16 14:46:39 [http-nio-8080-exec-4] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-16 14:46:42 [http-nio-8080-exec-5] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-16 14:46:42 [http-nio-8080-exec-5] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-16 14:46:42 [http-nio-8080-exec-6] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-16 14:46:42 [http-nio-8080-exec-6] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-16 14:46:43 [http-nio-8080-exec-7] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-16 14:46:43 [http-nio-8080-exec-7] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-16 14:46:43 [http-nio-8080-exec-2] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-16 14:46:43 [http-nio-8080-exec-2] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-16 14:46:45 [http-nio-8080-exec-8] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-16 14:46:45 [http-nio-8080-exec-8] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-16 14:46:45 [http-nio-8080-exec-9] INFO  o.s.web.filter.OncePerRequestFilter - Header :  null
+2025-05-16 14:46:45 [http-nio-8080-exec-9] INFO  o.s.web.filter.OncePerRequestFilter - Invalid Header Value !! 
+2025-05-16 15:19:00 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-16 15:19:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-16 15:19:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-16 15:19:03 [restartedMain] INFO  crud2.Crud2.Crud2Application - Starting Crud2Application using Java 24.0.1 with PID 15224 (C:\Users\hp17p\Downloads\Crud2 (1)\Crud2\target\classes started by hp17p in C:\Users\hp17p\Downloads\Crud2 (1)\Crud2)
+2025-05-16 15:19:03 [restartedMain] DEBUG crud2.Crud2.Crud2Application - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-16 15:19:03 [restartedMain] INFO  crud2.Crud2.Crud2Application - No active profile set, falling back to 1 default profile: "default"
+2025-05-16 15:19:03 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-16 15:19:03 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-16 15:19:04 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-16 15:19:05 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 3 JPA repository interfaces.
+2025-05-16 15:19:06 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-16 15:19:06 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-16 15:19:06 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-16 15:19:06 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-16 15:19:06 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2706 ms
+2025-05-16 15:19:06 [restartedMain] DEBUG c.C.security.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2025-05-16 15:19:07 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-16 15:19:07 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-16 15:19:07 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-16 15:19:07 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-16 15:19:07 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-16 15:19:07 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c93ffbb
+2025-05-16 15:19:07 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-16 15:19:08 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-16 15:19:09 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-16 15:19:09 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-16 15:19:10 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-16 15:19:11 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 15 endpoint(s) beneath base path '/actuator'
+2025-05-16 15:19:11 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6ba1545c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@12a8ed92, org.springframework.security.web.context.SecurityContextHolderFilter@70dd7544, org.springframework.security.web.header.HeaderWriterFilter@514dd6ac, org.springframework.web.filter.CorsFilter@2c13c2a, org.springframework.security.web.authentication.logout.LogoutFilter@5a0ac5f7, crud2.Crud2.security.JwtAuthenticationFilter@6485f518, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@335da11, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50eadb8d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35f878f5, org.springframework.security.web.session.SessionManagementFilter@6dacb5a0, org.springframework.security.web.access.ExceptionTranslationFilter@72e645f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@abacf4a]
+2025-05-16 15:19:11 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-16 15:19:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-05-16 15:19:11 [restartedMain] INFO  crud2.Crud2.Crud2Application - Started Crud2Application in 8.872 seconds (process running for 9.437)
+2025-05-16 15:30:12 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 28 class path changes (0 additions, 27 deletions, 1 modification)
+2025-05-16 15:30:12 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-16 15:30:12 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-16 15:30:12 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-16 15:30:12 [restartedMain] INFO  crud2.Crud2.Crud2Application - Starting Crud2Application using Java 24.0.1 with PID 15224 (C:\Users\hp17p\Downloads\Crud2 (1)\Crud2\target\classes started by hp17p in C:\Users\hp17p\Downloads\Crud2 (1)\Crud2)
+2025-05-16 15:30:12 [restartedMain] DEBUG crud2.Crud2.Crud2Application - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-16 15:30:12 [restartedMain] INFO  crud2.Crud2.Crud2Application - No active profile set, falling back to 1 default profile: "default"
+2025-05-16 15:30:13 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-16 15:30:13 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2025-05-16 15:30:13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-16 15:30:13 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-16 15:30:13 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-16 15:30:13 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-16 15:30:13 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 680 ms
+2025-05-16 15:30:13 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-16 15:30:13 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-16 15:30:13 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-16 15:30:13 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-05-16 15:30:13 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@590ad11e
+2025-05-16 15:30:13 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-05-16 15:30:13 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-16 15:30:13 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-16 15:30:14 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-16 15:30:14 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-16 15:30:14 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 15 endpoint(s) beneath base path '/actuator'
+2025-05-16 15:30:14 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@397b952, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e729f07, org.springframework.security.web.context.SecurityContextHolderFilter@7c0bbd1f, org.springframework.security.web.header.HeaderWriterFilter@e2686cc, org.springframework.web.filter.CorsFilter@4ea080c1, org.springframework.security.web.csrf.CsrfFilter@436a4a0c, org.springframework.security.web.authentication.logout.LogoutFilter@708c6d92, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@511c816, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@38e516bf, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3039d2, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6c6a2649, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63009fdb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50fb1f6b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e535daf, org.springframework.security.web.access.ExceptionTranslationFilter@58bbc478, org.springframework.security.web.access.intercept.AuthorizationFilter@dce5a75]
+2025-05-16 15:30:14 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-16 15:30:14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-05-16 15:30:14 [restartedMain] INFO  crud2.Crud2.Crud2Application - Started Crud2Application in 1.898 seconds (process running for 672.261)
+2025-05-16 15:30:14 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - AnyNestedCondition 3 matched 0 did not; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) matched; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) matched; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) found bean 'objectPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2025-05-16 15:30:16 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 27 class path changes (27 additions, 0 deletions, 0 modifications)
+2025-05-16 15:30:16 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-16 15:30:16 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-05-16 15:30:16 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-05-16 15:30:16 [restartedMain] INFO  crud2.Crud2.Crud2Application - Starting Crud2Application using Java 24.0.1 with PID 15224 (C:\Users\hp17p\Downloads\Crud2 (1)\Crud2\target\classes started by hp17p in C:\Users\hp17p\Downloads\Crud2 (1)\Crud2)
+2025-05-16 15:30:16 [restartedMain] DEBUG crud2.Crud2.Crud2Application - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-16 15:30:16 [restartedMain] INFO  crud2.Crud2.Crud2Application - No active profile set, falling back to 1 default profile: "default"
+2025-05-16 15:30:16 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-16 15:30:16 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 3 JPA repository interfaces.
+2025-05-16 15:30:16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-16 15:30:16 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-16 15:30:16 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-16 15:30:16 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-16 15:30:16 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 484 ms
+2025-05-16 15:30:16 [restartedMain] DEBUG c.C.security.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2025-05-16 15:30:17 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-16 15:30:17 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-16 15:30:17 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-16 15:30:17 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-05-16 15:30:17 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c0ed3e0
+2025-05-16 15:30:17 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-05-16 15:30:17 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-16 15:30:17 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-16 15:30:17 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-16 15:30:17 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-16 15:30:17 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 15 endpoint(s) beneath base path '/actuator'
+2025-05-16 15:30:17 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@72c18bee, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5e50d9a3, org.springframework.security.web.context.SecurityContextHolderFilter@64fc706e, org.springframework.security.web.header.HeaderWriterFilter@4f0bea86, org.springframework.web.filter.CorsFilter@3783bd62, org.springframework.security.web.authentication.logout.LogoutFilter@7e38879d, crud2.Crud2.security.JwtAuthenticationFilter@fd6c5bf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@294289b4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@48bc7668, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2c91b008, org.springframework.security.web.session.SessionManagementFilter@77fb707, org.springframework.security.web.access.ExceptionTranslationFilter@2b6bd2c3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1864ba1e]
+2025-05-16 15:30:17 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-16 15:30:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-05-16 15:30:17 [restartedMain] INFO  crud2.Crud2.Crud2Application - Started Crud2Application in 1.443 seconds (process running for 675.134)
+2025-05-16 15:30:17 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' securityFilterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) found beans of type 'org.springframework.security.authentication.AuthenticationManager' authenticationManager and found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' userDetailsService (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+         - AnyNestedCondition 3 matched 0 did not; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) matched; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) matched; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2025-05-16 15:40:06 [HikariPool-3 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=2m48s935ms10µs700ns).
