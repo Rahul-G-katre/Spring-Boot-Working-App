@@ -243,3 +243,35 @@ org.springframework.http.converter.HttpMessageNotWritableException: No converter
 2025-05-16 11:37:52 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
 2025-05-16 11:37:52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
 2025-05-16 11:37:52 [restartedMain] INFO  crud2.Crud2.Crud2Application - Started Crud2Application in 7.827 seconds (process running for 8.433)
+2025-05-16 12:24:50 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-16 12:24:50 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-16 12:24:50 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-16 12:24:53 [restartedMain] INFO  crud2.Crud2.Crud2Application - Starting Crud2Application using Java 24.0.1 with PID 26820 (C:\Users\hp17p\Downloads\Crud2 (1)\Crud2\target\classes started by hp17p in C:\Users\hp17p\Downloads\Crud2 (1)\Crud2)
+2025-05-16 12:24:53 [restartedMain] DEBUG crud2.Crud2.Crud2Application - Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-05-16 12:24:53 [restartedMain] INFO  crud2.Crud2.Crud2Application - No active profile set, falling back to 1 default profile: "default"
+2025-05-16 12:24:53 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-16 12:24:53 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-16 12:24:55 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-16 12:24:55 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77 ms. Found 3 JPA repository interfaces.
+2025-05-16 12:24:56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-16 12:24:56 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-16 12:24:56 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-16 12:24:56 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-16 12:24:56 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2861 ms
+2025-05-16 12:24:57 [restartedMain] DEBUG c.C.security.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2025-05-16 12:24:57 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-16 12:24:57 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-16 12:24:57 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-16 12:24:57 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-16 12:24:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-16 12:24:58 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c05897c
+2025-05-16 12:24:58 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-16 12:24:58 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-16 12:24:59 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-16 12:24:59 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-16 12:25:00 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-16 12:25:00 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 15 endpoint(s) beneath base path '/actuator'
+2025-05-16 12:25:00 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@37b53d94, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ab293e1, org.springframework.security.web.context.SecurityContextHolderFilter@113b06fe, org.springframework.security.web.header.HeaderWriterFilter@64bc173, org.springframework.web.filter.CorsFilter@229a930b, org.springframework.security.web.authentication.logout.LogoutFilter@596bd898, crud2.Crud2.security.JwtAuthenticationFilter@18384491, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@468a8629, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@522dc9a3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21228ac8, org.springframework.security.web.session.SessionManagementFilter@389178d, org.springframework.security.web.access.ExceptionTranslationFilter@2eaf0c2d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@17f5d9f7]
+2025-05-16 12:25:01 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-16 12:25:01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-05-16 12:25:01 [restartedMain] INFO  crud2.Crud2.Crud2Application - Started Crud2Application in 8.084 seconds (process running for 8.845)
