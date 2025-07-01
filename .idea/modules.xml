@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Crud2/Crud2.iml" filepath="$PROJECT_DIR$/Crud2/Crud2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/Spring-Boot-WorkingApp.iml" filepath="$PROJECT_DIR$/.idea/Spring-Boot-WorkingApp.iml" />
     </modules>
   </component>
 </project>

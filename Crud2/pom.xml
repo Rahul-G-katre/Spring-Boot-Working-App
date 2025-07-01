@@ -118,6 +118,39 @@
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 
+<!--		Dependencies for Cloud Dataflow Job Creation and BigQuery data parsing -->
+
+		<!-- Apache Beam Core SDK -->
+		<dependency>
+			<groupId>org.apache.beam</groupId>
+			<artifactId>beam-sdks-java-core</artifactId>
+			<version>2.52.0</version>
+		</dependency>
+
+		<!-- GCP IOs like BigQuery, GCS, etc. -->
+		<dependency>
+			<groupId>org.apache.beam</groupId>
+			<artifactId>beam-sdks-java-io-google-cloud-platform</artifactId>
+			<version>2.52.0</version>
+		</dependency>
+
+		<!-- Dataflow Runner -->
+		<dependency>
+			<groupId>org.apache.beam</groupId>
+			<artifactId>beam-runners-google-cloud-dataflow-java</artifactId>
+			<version>2.52.0</version>
+		</dependency>
+
+		<!-- Google Cloud BigQuery Client -->
+		<dependency>
+			<groupId>com.google.cloud</groupId>
+			<artifactId>google-cloud-bigquery</artifactId>
+			<version>2.38.0</version>
+		</dependency>
+
+
+
+
 	</dependencies>
 <!--	<repositories>-->
 <!--		<repository>-->

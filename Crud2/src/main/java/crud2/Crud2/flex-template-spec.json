@@ -1,0 +1,17 @@
+{
+  "name": "employee-batch-pipeline",
+  "description": "Parses Indian employee CSV and writes to BigQuery",
+  "mainClass": "crud2.Crud2.pipeline.MyPipeline",
+  "parameters": [
+    {
+      "name": "inputFile",
+      "label": "Input File",
+      "helpText": "GCS path to the input CSV file"
+    },
+    {
+      "name": "outputTable",
+      "label": "Output Table",
+      "helpText": "BigQuery table in project:dataset.table format"
+    }
+  ]
+}

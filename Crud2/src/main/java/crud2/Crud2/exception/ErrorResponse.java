@@ -1,4 +1,5 @@
 package crud2.Crud2.exception;
+
 import java.time.LocalDateTime;
 
 public class ErrorResponse {

@@ -1,14 +1,14 @@
 package crud2.Crud2.service;
-import java.util.List;
-import java.util.Optional;
 
 import crud2.Crud2.exception.ResourceNotFoundException;
 import crud2.Crud2.model.Brand;
-
 import crud2.Crud2.repository.BrandRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.Optional;
 
 @Service
 public class BrandService {

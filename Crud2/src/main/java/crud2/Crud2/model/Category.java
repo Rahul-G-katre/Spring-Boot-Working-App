@@ -14,9 +14,7 @@ import lombok.*;
 
 @Data
 @Entity
-//@NoArgsConstructor
-//@Getter
-//@Setter
+
 public class Category {
 
     @Id

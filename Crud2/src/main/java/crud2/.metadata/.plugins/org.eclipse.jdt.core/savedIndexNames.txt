@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+C:\Users\hp17p\Downloads\Crud2 (1)\Crud2\src\main\java\crud2\.metadata\.plugins\org.eclipse.jdt.core
-2714209663.index
-1865797976.index
-251661047.index

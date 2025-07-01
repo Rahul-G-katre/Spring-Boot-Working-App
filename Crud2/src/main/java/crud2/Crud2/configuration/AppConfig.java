@@ -13,9 +13,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
 @Configuration
-class AppConfig {
+public class AppConfig {
 
-@Bean
+    @Bean
     public UserDetailsService userDetailsService()
     {
         UserDetails user1 = User.builder().username("Rahul").password(passwordEncoder().encode("Rahul@123")).roles("user1").build();

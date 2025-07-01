@@ -3,6 +3,8 @@ package crud2.Crud2.security;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.SecurityFilterChain;
@@ -24,7 +26,7 @@ public class SecurityConfig {
                 // Allow access to Prometheus endpoint without authentication
                 .requestMatchers("/actuator/prometheus").permitAll()
                 // Other public endpoints (Swagger, login, etc.)
-                .requestMatchers("/auth/login", "/swagger-ui/**", "/v3/api-docs/**", "/swagger-resources/**").permitAll()
+                .requestMatchers("/auth/login","/run-pipeline", "/swagger-ui/**", "/v3/api-docs/**", "/swagger-resources/**").permitAll()
                 // Authenticate other requests
                 .anyRequest().authenticated()
                 .and()
